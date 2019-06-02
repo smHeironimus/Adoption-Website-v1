@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Adoption Form</title>
+<head>
+  <link rel="stylesheet" type="text/css"
+  href="stylesheets\main_stylesheet.css"></link>
+  <!-- <script src="scripts.js"></script> -->
+</head>
+<body class="main_body">
+  <div class="sub_banner">
+    <h4>Adoption Application<h4>
+  </div>
+  <form class="adoption_form">
+    <p class="form_info">Please fill out the following information and submit once completed.
+      Fields denoted with (<font color="red">*</font>) are required.</p>
+    <table align="left">
+      <tr>
+        <th>First Name (<font color="red">*</font>):</th>
+        <th><input type="text" name="FirstName" value="" required></th>
+      </tr>
+      <tr>
+        <th>Last Name (<font color="red">*</font>):</th>
+        <th><input type="text" name="LastName" value=""required></th>
+      </tr>
+      <tr>
+        <th>Phone Number (<font color="red">*</font>):</th>
+        <th><input type="text" name="PhoneNumber" value="" required></th>
+      </tr>
+      <tr>
+        <th>Email Address:</th>
+        <th><input type="text" name="Email" value=""></th>
+      </tr>
+      <tr>
+        <th></th>
+        <th><button onclick="location.href='completed.html'" type="button"
+          class="submit_button">Submit</button>
+        </th>
+      </tr>
+  </form>
+</body>
+</html>

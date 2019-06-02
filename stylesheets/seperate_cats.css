@@ -1,0 +1,64 @@
+.main_body {
+  background: #77abff;
+}
+
+.banner {
+  background-color: #4573bc;
+  color: white;
+  padding: 25px;
+  margin: 1px;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  font-size: 28px;
+}
+
+.paw_print_img {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 150px;
+  height: 150px;
+  opacity: 0.7;
+}
+
+.profile_pic {
+  padding-right: 30px;
+  width: 650px;
+  height: 500px;
+}
+
+p {
+  padding-top: 15px;
+  padding-right: 30px;
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+ul {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  list-style-type: none;
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.adopt_me_button {
+    background-color: #77abff;
+    color: white;
+    border: 2px solid #4573bc;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Verdana", sans-serif;
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
